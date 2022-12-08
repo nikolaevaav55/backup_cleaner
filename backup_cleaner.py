@@ -19,6 +19,7 @@ def delete_old_backup(path=PATH):
             print("Удалена папка: ", min_date)
         except Exception as error:
             print("Произошла ошибка: ", error)
+
             break
 
 
